@@ -1,0 +1,13 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+void vecfun(vector<int>& smtg){
+      for(int i=0;i<10;i++) smtg.push_back(i);
+}
+int main(){
+      vector<int> var;
+      vecfun(var);
+      for(int i=0;i<10;i++)   cout<<var[i]<<endl;
+    return 0;
+
+}
